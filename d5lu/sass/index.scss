@@ -212,6 +212,7 @@
         .hot-items-title{
         }
         .hot-items-box{
+            //选项卡
             .items-tab{
                 overflow:hidden;
                 ul{
@@ -225,6 +226,147 @@
                         margin-right: 8px ;
                         font: 14px/30px "microsoft yahei";
                         color: #fff;
+                        &.active{
+                            background: #000000;   
+                        }
+                    }
+                }
+            }
+            //内容区
+            .items-content{
+                width: 100%;
+                height: 515px;
+                padding-top:15px;
+                overflow: hidden;
+                ul{
+                    width:300%;
+                    margin-left: -2420px;
+                    li{
+                        float: left;
+                        width: 1210px;
+                        .content-l{
+                            float: left;
+                        }
+                        .content-r{
+                            margin-left:10px;
+                            float: left;
+                            width: 833px;
+                            
+                            .r-cell{
+                                float: left;
+                                margin-bottom: 8px;
+                                border: 1px solid #ccc;
+                                text-align: center;
+                                font:12px/24px "microsoft yahei";
+                                .message{
+                                    display: inline-block;
+                                    position: relative;
+                                }
+                                .pic{
+                                    position: relative;
+                                    a{
+                                        display: inline-block;
+                                    }
+                                }
+                                img{
+                                    width: 150px;
+                                }
+                            }
+                            .r-cell1{
+                                width: 222px;    
+                            }
+                            .r-cell2{
+                                width: 367px;
+                                .message{
+                                    display: inline-block;
+                                    float: left;
+                                    margin-left: 70px;
+                                    margin-top: 20px;
+                                    position: relative;
+                                }
+                                .pic{
+                                    float: left;
+                                    margin-top: 30px;
+                                    position: relative;
+                                    a{
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                            .r-top{
+                                height: 250px;
+                                margin-right: 8px;
+                            }
+                            .r-cell3{
+                                width: 220px;
+                                margin-right: 0px;
+                            }
+                            
+                           
+                            .r-bottom{
+                                width: 271px;
+                                height: 255px;
+                                margin-right: 7px;
+                            }
+                            .r-cell4{
+                                .message{
+                                    z-index: 2;
+                                }
+                                .pic{
+                                     margin-top: -13px;
+                                }
+                               
+                            }
+                            .r-cell6{
+                                margin-right: 0px;
+                            }
+                            
+                        }
+                    }
+                    .starsame{
+                       
+                        .content-l{
+                             position: relative;
+                            .l-modal{
+                               display: none;
+                               position: absolute;
+                               top: 0;
+                               left: 0;
+                               width: 100%;
+                               height: 100%;
+                               .modal-bg{
+                                   position:relative ;
+                                   width: 100%;
+                                   height: 100%;
+                                   background: url(../img/hotitems/darwin_mask_bg.png);
+                               } 
+                               .modal-box{
+                                  
+                                   padding-top: 20px;
+                                   position: absolute;
+                                   top: 50%;
+                                   left: 50%;
+                                   margin-left: -131px;
+                                   margin-top: -60px;
+                                   width: 260px;
+                                   height: 120px;
+                                   border: 1px solid #fff;
+                                   color:#fff;
+                                   text-align: center;
+                                   font:18px/28px "microsoft yahei";
+                                   .slice-line{
+                                       display: block;
+                                       margin: 8px auto;
+                                       width: 20px;
+                                       height: 2px;
+                                       background: #fff;
+                                   }
+                                   .star{
+                                       font-size:12px;
+                                   }
+                               }
+                            }
+                        }
                     }
                 }
             }

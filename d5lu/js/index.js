@@ -15,7 +15,7 @@ $(function(){
 	var Banner = function(banner){
 		this.banner = banner;
 		this.imgWrap = $(".img-wrap");
-		this.imgs= $("img");
+		this.imgs= $(".img-wrap img");
 		this.arrows = $(".arrow");
 		this.circlesW = $(".circle-s");
 		this.circles = null;
@@ -50,10 +50,12 @@ $(function(){
 		//初始化小圆点
 		this.initCircle = function(){
 			var content = '';
+			console.log(this.imgs.length);
 			for(var k=1;k<=this.imgs.length-1;k++){
 				content += '<span class="circle"></span>';
 			}
 			$(".circle-s").html(content);
+			console.log(content);
 			this.circles = $(".circle");
 			this.circles.eq(0).addClass('active');
 		}
@@ -161,6 +163,9 @@ $(function(){
 			
 			//热门商店
 			this.storeAni();
+			
+			//商场同款
+			this.hotItem();
 		},
 		
 		//品牌旗舰
@@ -213,8 +218,44 @@ $(function(){
 					},300);
 				}
 			});
-		}
+		},
 		
+		//商场同款
+		hotItem : function(){
+			//选项卡切换
+			$(".items-tab li").each(function(){
+				$(this).mouseenter(function(){
+					$(this).addClass("active").siblings().removeClass("active");
+					var index = $(this).index();
+					var liW = $(".items-content li").eq(0).width();
+					$(".items-content ul").stop().animate({
+						marginLeft : -liW * index
+					},300);
+				});
+			});
+			
+			//选项卡内容区
+			//鼠标移入，错位
+			$(".r-cell").each(function(){
+				$(this).hover(function(){
+					$(this).find(".message").stop(true).animate({
+						left:-20
+					},200);
+					$(this).find(".pic").stop(true).animate({
+						left:20
+					},200); 
+				},function(){
+					$(this).find(".message").stop(true).animate({
+						left:0
+					},200);
+					$(this).find(".pic").stop(true).animate({
+						left:0
+					},200);
+				});
+				
+			});
+			
+		}
 	}
 	index.init();
 });

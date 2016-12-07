@@ -165,5 +165,106 @@
         margin-right: 8px;
         font: 14px/30px "microsoft yahei";
         color: #fff; }
+        #main .hot-items .hot-items-box .items-tab ul li.active {
+          background: #000000; }
+  #main .hot-items .hot-items-box .items-content {
+    width: 100%;
+    height: 515px;
+    padding-top: 15px;
+    overflow: hidden; }
+    #main .hot-items .hot-items-box .items-content ul {
+      width: 300%;
+      margin-left: -2420px; }
+      #main .hot-items .hot-items-box .items-content ul li {
+        float: left;
+        width: 1210px; }
+        #main .hot-items .hot-items-box .items-content ul li .content-l {
+          float: left; }
+        #main .hot-items .hot-items-box .items-content ul li .content-r {
+          margin-left: 10px;
+          float: left;
+          width: 833px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell {
+            float: left;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+            font: 12px/24px "microsoft yahei"; }
+            #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell .message {
+              display: inline-block;
+              position: relative; }
+            #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell .pic {
+              position: relative; }
+              #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell .pic a {
+                display: inline-block; }
+            #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell img {
+              width: 150px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell1 {
+            width: 222px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell2 {
+            width: 367px; }
+            #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell2 .message {
+              display: inline-block;
+              float: left;
+              margin-left: 70px;
+              margin-top: 20px;
+              position: relative; }
+            #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell2 .pic {
+              float: left;
+              margin-top: 30px;
+              position: relative; }
+              #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell2 .pic a {
+                display: inline-block; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-top {
+            height: 250px;
+            margin-right: 8px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell3 {
+            width: 220px;
+            margin-right: 0px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-bottom {
+            width: 271px;
+            height: 255px;
+            margin-right: 7px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell4 .message {
+            z-index: 2; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell4 .pic {
+            margin-top: -13px; }
+          #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell6 {
+            margin-right: 0px; }
+      #main .hot-items .hot-items-box .items-content ul .starsame .content-l {
+        position: relative; }
+        #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal {
+          display: none;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%; }
+          #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal .modal-bg {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background: url(../img/hotitems/darwin_mask_bg.png); }
+          #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal .modal-box {
+            padding-top: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -131px;
+            margin-top: -60px;
+            width: 260px;
+            height: 120px;
+            border: 1px solid #fff;
+            color: #fff;
+            text-align: center;
+            font: 18px/28px "microsoft yahei"; }
+            #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal .modal-box .slice-line {
+              display: block;
+              margin: 8px auto;
+              width: 20px;
+              height: 2px;
+              background: #fff; }
+            #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal .modal-box .star {
+              font-size: 12px; }
 
 /*# sourceMappingURL=index.css.map */
