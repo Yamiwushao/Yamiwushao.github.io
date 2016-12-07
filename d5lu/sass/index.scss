@@ -1,0 +1,233 @@
+@charset "utf-8";
+#banner{
+   position: relative;
+   height: 520px;
+   width: 100%;
+   overflow: hidden;
+   
+   .img-wrap{
+       width:600%;
+       margin-left:-88px;
+       img{
+          float: left; 
+       }
+   }
+   .arrow{
+       position: absolute;
+       top: 50%;
+       cursor: pointer;
+       margin-top: -25px;
+   }
+   .arrow-left{
+       left: 145px;
+       width: 29px;
+       height: 49px;
+       background: url(../img/banner/templateleft.png);
+   }
+   .arrow-right{
+       right: 145px;
+       width: 29px;
+       height: 49px;
+       background: url(../img/banner/templateright.png);
+       
+   }
+   .circle-wrap{
+       position: absolute;
+       bottom: 20px;
+       text-align: center;
+       width: 100%;
+       .circle-s{
+           height: 16px;
+           background: rgba(0,0,0,0.2);
+           display:inline-block;
+           border-radius:10px;
+           .circle{
+               display: block;
+               float: left;
+               width: 12px;
+               height: 12px;
+               border-radius: 50%;
+               background: #fff;
+               margin: 2px 6px;
+               cursor: pointer;
+               
+           }
+           .active{
+               background: #d00000;
+           }
+       }
+       
+   }
+}
+#main{
+    min-height: 800px;
+    //品牌旗舰
+    .flagship-brand{
+        .flagship-title{
+            padding: 40px 0 28px;
+        }
+        .flagship-list{
+            overflow: hidden;
+            ul{
+                width:110%;
+                li{
+                    float: left;
+                    margin-right:10px;
+                    a{
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        .ship-img{
+                            
+                        }
+                        //隐藏部分
+                        .flagship-content{
+                            position: absolute;
+                            width: 106px;
+                            height: 154px;
+                            padding: 0 34px;
+                            bottom: 1px;
+                            left: 50%;
+                            margin-left: -87px;
+                            overflow: hidden;
+                            .flagship-hide{
+                                position: absolute;
+                                left: 0;
+                                top: 100px;
+                                width: 100%;
+                                height: 100%;
+                                background: #fff;
+                                text-align: center;
+                                font: 14px/24px "microsoft yahei";
+                                .brand-img{
+                                    width: 60px;
+                                    margin: 10px 0 3px 0;
+                                    
+                                }
+                                .slice-line{
+                                    width: 20px;
+                                    height: 2px;
+                                    margin: 0 auto;
+                                    background: #000000;   
+                                }
+                                .enbrand{
+                                   margin-top: 30px;
+                                    
+                                }
+                            }    
+                        }
+                    }
+                }
+            }
+        }
+        .hot-store{
+            //热门旗舰店标题
+            .hotstore-title{
+                
+            }
+            .hotstore-list{
+                overflow: hidden;
+                ul{
+                    width:110%;
+                   
+                    li{
+                        position: relative;
+                        float: left;
+                        width: 107px;
+                        height: 55px;
+                        margin: 0 6px 7px 0;
+                        padding: 14px 29px;
+                        border: 1px solid #dfdfdf;
+                        img{
+                            position: absolute;
+                            top: 14px;
+                            left: 29px;
+                            width: 107px;
+                            height: 55px;
+                        }
+                        .storelogo-hide{
+                            position: absolute;
+                            top: 14px;
+                            left: 29px;
+                            display: none;
+                            width: 107px;
+                            height: 55px;
+                            text-align: center;
+                            font-size: 18px;
+                            line-height: 34px;
+                            font-family: "microsoft yahei";
+                            a{
+                                display: block;   
+                                &:hover{
+                                    color: #b28247;
+                                }     
+                            }  
+                            span{
+                                display: block;
+                                width: 20px;
+                                height: 2px;
+                                background: #000000;
+                                margin: 0 auto;
+                            } 
+                        }
+                        .top-line{
+                            position: absolute;
+                            top: -1px;
+                            left: 0;
+                            height: 1px;
+                           
+                            background: #000000;
+                        }
+                        .bottom-line{
+                            position: absolute;
+                            bottom: -1px;
+                            right: 0;
+                            height: 1px;
+                            background: #000000;
+                        }
+                        .left-line{
+                            position: absolute;
+                            top: -1px;
+                            left: -1px;
+                            width: 1px;
+                            background: #000000;
+                        }
+                        .right-line{
+                            position: absolute;
+                            bottom: -1px;
+                            right: -1px;
+                            width: 1px;
+                            background: #000000;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    
+    //商场同款
+    .hot-items{
+        .hot-items-title{
+        }
+        .hot-items-box{
+            .items-tab{
+                overflow:hidden;
+                ul{
+                    width: 110%;
+                    li{
+                        float: left;
+                        width: 398px;
+                        height: 30px;
+                        background: #999;
+                        text-align: center;
+                        margin-right: 8px ;
+                        font: 14px/30px "microsoft yahei";
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

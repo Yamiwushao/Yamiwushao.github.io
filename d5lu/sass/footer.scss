@@ -1,0 +1,93 @@
+@charset "utf-8";
+$borderC : #c9c9c9;
+.foot{
+    height: 600px;
+    border-top:1px solid #c9c9c9 ;
+    background:url(../img/foot_bg.jpg) no-repeat bottom;
+    .foot-top{
+        width: 100%;
+        height: 116px;
+        border-bottom:1px solid #c9c9c9 ;
+        ul{
+            height: 100%;
+            li{
+                width: 242px;
+                padding: 26px 0;
+                float: left;
+                a{
+                    display:block;
+                    padding-left:80px;
+                    img{
+                        width:64px;
+                        height:64px;
+                        margin-left:-70px;
+                        float:left;
+                    }
+                    h3{font:700 12px/24px "microsoft yahei";color:#000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+                        padding-top: 5px;
+                    }
+                    p{font:12px/24px "microsoft yahei";color:#000;
+                        &:hover{
+                            text-decoration: underline ;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    .foot-center{
+        height: 283px;
+        padding-left: 20px;
+        .center-item{
+            float: left;
+            width: 185px;
+            height: 100%;
+            font:12px "microsoft yahei";
+            .item-title{
+                line-height: 65px;
+                font-weight: 700;
+                color:#000;
+            }
+            li{
+                line-height: 24px;
+                a{
+                    display: inline-block;
+                    height: 100%;
+                    color: #000;
+                }
+            }
+            &.app{
+                width: 140px;
+            }
+            &.weibo{
+                width: 125px;
+            }
+        }
+        
+    }
+    .foot-bottom{
+        text-align:center;
+        font:12px "microsoft yahei";
+        color: #fff;
+        .bottom-nav{
+            line-height: 66px;
+            a{
+                color: #fff;
+                margin: 0 5px;
+            }
+        }
+        .bottom-firend{
+            a{
+                color: #fff;
+                margin: 0 5px;
+            }
+        }
+        .bottom-pro{
+            margin-top: 23px;
+            
+        }
+        
+    }
+    
+}

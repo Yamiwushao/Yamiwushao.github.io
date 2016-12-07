@@ -1,0 +1,369 @@
+.margin {
+  width: 1210px;
+  margin: 0 auto; }
+
+#header .head-ad {
+  display: block;
+  cursor: default; }
+  #header .head-ad .promiss-message {
+    position: absolute;
+    display: none; }
+#header .head-top {
+  height: 30px;
+  line-height: 30px;
+  background-color: #f2f2f2;
+  font-family: "microsoft yahei"; }
+  #header .head-top .top-left {
+    height: 100%;
+    float: left; }
+    #header .head-top .top-left .left-home {
+      height: 30px;
+      width: 110px;
+      float: left; }
+      #header .head-top .top-left .left-home b {
+        float: left;
+        height: 16px;
+        width: 15px;
+        margin: 7px 5px 0 2px;
+        background: url(../img/home.png) no-repeat; }
+      #header .head-top .top-left .left-home a {
+        float: left;
+        width: 85px;
+        line-height: 30px; }
+      #header .head-top .top-left .left-home i {
+        float: left;
+        margin-top: 9px;
+        height: 12px;
+        border-right: 1px solid #dfdfdf; }
+    #header .head-top .top-left .left-vip {
+      float: left;
+      padding-left: 30px; }
+      #header .head-top .top-left .left-vip b {
+        display: inline-block;
+        vertical-align: middle;
+        height: 15px;
+        width: 13px;
+        background: url(../img/brandstore_share.png) no-repeat -356px -346px; }
+  #header .head-top .top-right {
+    float: right; }
+    #header .head-top .top-right ul li {
+      position: relative;
+      float: left;
+      padding: 0 20px; }
+      #header .head-top .top-right ul li a {
+        display: block; }
+      #header .head-top .top-right ul li i {
+        position: absolute;
+        right: 3px;
+        top: 9px;
+        height: 12px;
+        border-right: 1px solid #dfdfdf; }
+      #header .head-top .top-right ul li.login:hover a, #header .head-top .top-right ul li.phonedown:hover a {
+        color: #cc0000; }
+      #header .head-top .top-right ul li.register a {
+        line-height: 28px; }
+        #header .head-top .top-right ul li.register a:hover {
+          color: #b28247; }
+        #header .head-top .top-right ul li.register a b {
+          display: inline-block;
+          vertical-align: middle;
+          margin-top: -8px;
+          width: 22px;
+          height: 24px;
+          background: url(../img/youli.gif) no-repeat; }
+      #header .head-top .top-right ul li.myd5lu {
+        border-left: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2; }
+        #header .head-top .top-right ul li.myd5lu a b {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 10px;
+          width: 15px;
+          height: 10px;
+          background: url(../img/brandstore_share.png) no-repeat -352px -448px; }
+        #header .head-top .top-right ul li.myd5lu .my-list {
+          z-index: 5;
+          display: none;
+          position: absolute;
+          background-color: #fff;
+          border: 1px solid #dfdfdf;
+          border-top: none;
+          text-align: center;
+          top: 30px;
+          left: -1px;
+          width: 100%; }
+          #header .head-top .top-right ul li.myd5lu .my-list dd a:hover {
+            color: #b28247; }
+      #header .head-top .top-right ul li.active {
+        background: #fff;
+        border-left: 1px solid #dfdfdf;
+        border-right: 1px solid #dfdfdf; }
+        #header .head-top .top-right ul li.active > a {
+          color: #b28247; }
+          #header .head-top .top-right ul li.active > a b {
+            background: url(../img/brandstore_share.png) no-repeat -352px -477px; }
+      #header .head-top .top-right ul li.help a:hover {
+        color: #b28247; }
+      #header .head-top .top-right ul li.phonedown {
+        position: relative;
+        border-left: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2; }
+        #header .head-top .top-right ul li.phonedown a b {
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 5px;
+          width: 17px;
+          height: 17px;
+          background: url(../img/brandstore_share.png) no-repeat -287px -378px; }
+        #header .head-top .top-right ul li.phonedown .phone-list {
+          z-index: 5;
+          background: #fff;
+          display: none;
+          position: absolute;
+          top: 30px;
+          left: -1px;
+          border: 1px solid #dfdfdf;
+          border-top: none;
+          width: 100%;
+          text-align: center;
+          padding-top: 5px;
+          line-height: 20px; }
+          #header .head-top .top-right ul li.phonedown .phone-list span {
+            font: 16px/20px "microsoft yahei";
+            color: #cc0000; }
+      #header .head-top .top-right ul li.pactive {
+        background: #fff;
+        border-left: 1px solid #dfdfdf;
+        border-right: 1px solid #dfdfdf; }
+        #header .head-top .top-right ul li.pactive > a {
+          color: #cc0000; }
+          #header .head-top .top-right ul li.pactive > a b {
+            background: url(../img/brandstore_share.png) no-repeat -287px -413px; }
+#header .head-mid {
+  height: 110px; }
+  #header .head-mid .logo {
+    float: left; }
+    #header .head-mid .logo a {
+      display: inline-block; }
+  #header .head-mid .yijian {
+    float: left;
+    margin-left: 50px;
+    height: 100%; }
+    #header .head-mid .yijian a {
+      display: inline-block;
+      height: 100%; }
+      #header .head-mid .yijian a img {
+        vertical-align: middle; }
+  #header .head-mid .search-wrap {
+    float: left;
+    margin-left: 55px;
+    padding-top: 35px; }
+    #header .head-mid .search-wrap .wrap-box {
+      height: 32px;
+      line-height: 32px;
+      border: 2px solid #b28247;
+      font-family: arial; }
+      #header .head-mid .search-wrap .wrap-box .search-ipt {
+        width: 298px;
+        height: 31px;
+        border: none;
+        padding-left: 3px;
+        color: #999; }
+      #header .head-mid .search-wrap .wrap-box .search-btn {
+        width: 80px;
+        height: 32px;
+        border: none;
+        background: #b28247;
+        font: 14px/32px '';
+        color: #fff;
+        cursor: pointer; }
+      #header .head-mid .search-wrap .wrap-box .result-list {
+        display: none;
+        position: absolute;
+        width: 303px;
+        background: #FFF;
+        border: 1px solid #dfdfdf;
+        font: 12px/32px "microsoft yahei";
+        color: #000000; }
+        #header .head-mid .search-wrap .wrap-box .result-list li {
+          height: 32px;
+          padding: 0 5px; }
+          #header .head-mid .search-wrap .wrap-box .result-list li > span {
+            float: left; }
+          #header .head-mid .search-wrap .wrap-box .result-list li a {
+            float: left;
+            margin: 0 5px; }
+            #header .head-mid .search-wrap .wrap-box .result-list li a:hover {
+              color: #b28247; }
+          #header .head-mid .search-wrap .wrap-box .result-list li b {
+            float: right; }
+    #header .head-mid .search-wrap .search-alist {
+      padding-left: 2px; }
+      #header .head-mid .search-wrap .search-alist a {
+        font-family: "microsoft yahei";
+        color: #999;
+        margin-right: 25px; }
+  #header .head-mid .cart-icon {
+    position: absolute;
+    right: 35px;
+    z-index: 4;
+    padding: 0 20px 0 10px;
+    width: 110px;
+    height: 32px;
+    line-height: 32px;
+    background: #fff url(../img/brandstore_share.png) no-repeat -340px -406px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+    margin-top: 39px;
+    font-family: "microsoft yahei"; }
+    #header .head-mid .cart-icon a {
+      background: #fff;
+      display: block;
+      width: 90%;
+      height: 100%; }
+      #header .head-mid .cart-icon a i {
+        float: left;
+        width: 22px;
+        height: 30px;
+        background: url(../img/brandstore_share.png) no-repeat -390px -337px;
+        margin-right: 10px; }
+      #header .head-mid .cart-icon a span {
+        float: left; }
+        #header .head-mid .cart-icon a span b {
+          color: #cc0000; }
+    #header .head-mid .cart-icon .cart-content {
+      background: #fff;
+      display: none;
+      z-index: 3;
+      margin-top: -1px;
+      position: absolute;
+      right: -1px;
+      width: 248px;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      box-shadow: 0px 0px 2px #ccc; }
+      #header .head-mid .cart-icon .cart-content h3 {
+        font-size: 13px;
+        border-bottom: 1px solid #999; }
+    #header .head-mid .cart-icon.cactive {
+      border-bottom: none; }
+#header .head-menu {
+  height: 38px;
+  background: url(../img/navi_1pxbg.png) repeat-x;
+  box-shadow: 0 4px 4px #c7c6c6; }
+  #header .head-menu ul.menu {
+    float: left; }
+    #header .head-menu ul.menu li {
+      float: left;
+      width: 82px;
+      height: 40px;
+      text-align: center;
+      font-family: "microsoft yahei"; }
+      #header .head-menu ul.menu li a {
+        display: block;
+        height: 38px;
+        color: #c8a985;
+        font-size: 14px;
+        line-height: 38px; }
+        #header .head-menu ul.menu li a:hover {
+          color: #fff; }
+      #header .head-menu ul.menu li.shop a i {
+        margin-top: -5px;
+        display: inline-block;
+        vertical-align: middle;
+        width: 22px;
+        height: 28px;
+        background: url(../img/share02.png) -58px -175px; }
+      #header .head-menu ul.menu li.shop a:hover i {
+        background: url(../img/share02.png) -366px -258px; }
+    #header .head-menu ul.menu .mactive {
+      height: 38px; }
+      #header .head-menu ul.menu .mactive > a {
+        font-weight: 700;
+        color: #fff;
+        background: url(../img/lux_index.png) no-repeat -8px -216px; }
+    #header .head-menu ul.menu .goods-categorys {
+      width: 130px;
+      position: relative; }
+      #header .head-menu ul.menu .goods-categorys .categorys-wrap {
+        display: none;
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        z-index: 1000; }
+        #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item {
+          position: relative; }
+          #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item {
+            background: #fff;
+            opacity: 0.85;
+            height: 36px;
+            width: 120px;
+            padding-left: 10px;
+            text-align: left; }
+            #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item a {
+              position: relative;
+              height: 100%; }
+              #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item a i {
+                display: inline-block;
+                vertical-align: middle;
+                width: 21px;
+                height: 21px;
+                margin-top: 2px;
+                margin-right: 5px; }
+              #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item a span {
+                vertical-align: middle;
+                display: inline-block;
+                line-height: 36px;
+                color: #000; }
+              #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item a b {
+                display: none;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                vertical-align: middle;
+                width: 21px;
+                height: 21px;
+                margin-top: 2px;
+                background: url(../img/share02.png) no-repeat -296px -40px; }
+            #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item.cate-brand i {
+              background: url(../img/cate1.png) no-repeat 0px 0px; }
+            #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item.cate-bag i {
+              background: url(../img/cate1.png) no-repeat 0px -25px; }
+            #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-item.cate-meizhuang i {
+              background: url(../img/cate1.png) no-repeat 0px -50px; }
+          #header .head-menu ul.menu .goods-categorys .categorys-wrap .cate-item-wrap .wrap-item .cate-content {
+            position: absolute;
+            display: none;
+            top: 0;
+            left: 130px; }
+  #header .head-menu .icon-wrap {
+    float: right;
+    text-align: left;
+    height: 40px; }
+    #header .head-menu .icon-wrap ul li {
+      float: left;
+      height: 100%;
+      line-height: 38px;
+      margin-right: 12px;
+      width: 30px;
+      overflow: hidden; }
+      #header .head-menu .icon-wrap ul li a {
+        color: #fff;
+        display: block;
+        width: 140px;
+        font-family: "microsoft yahei"; }
+        #header .head-menu .icon-wrap ul li a i {
+          float: left;
+          margin: 2px 2px 0 0;
+          width: 30px;
+          height: 30px; }
+          #header .head-menu .icon-wrap ul li a i.quality-icon {
+            background: url(../img/share02.png) -238px -69px; }
+          #header .head-menu .icon-wrap ul li a i.vip-icon {
+            background: url(../img/share02.png) -299px -69px; }
+          #header .head-menu .icon-wrap ul li a i.ht-icon {
+            background: url(../img/share02.png) -356px -69px; }
+        #header .head-menu .icon-wrap ul li a span {
+          float: left; }
+
+/*# sourceMappingURL=header.css.map */

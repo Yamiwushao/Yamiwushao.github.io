@@ -1,0 +1,171 @@
+@charset "utf-8";
+.sidebar{
+    z-index: 90;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-right: 2px solid #000;
+    .sidebar-block1{
+        position: absolute;
+        top: 30%;
+        right: 0;
+        ul{
+            li{
+                margin-top: 1px;
+                height: 35px;
+                a{
+                   position: relative;
+                   height: 35px;
+                    i{ 
+                        position: absolute;
+                        display: block;
+                        right: 0;
+                        top: 0;
+                        width: 35px;
+                        height: 35px; 
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        &.tab-cart-show{
+                           background: #333  url(../img/share02.png) no-repeat -87px -158px;  
+                           &:hover{
+                               background-color:#c69c6d ;
+                               background-position-y: -123px; 
+                           }
+                        }
+                        &.tab-zichan-show{
+                           background: #333  url(../img/share02.png) no-repeat -138px -154px; 
+                           &:hover{
+                               background-color:#c69c6d ;
+                               background-position-y: -124px; 
+                               background-position-x: -139px; 
+                           }
+                        }
+                        &.tab-collect-show{
+                           background: #333 url(../img/share02.png) no-repeat -201px -154px; 
+                           &:hover{
+                                background-color:#c69c6d ;
+                                background-position-y: -125px; 
+                                background-position-x: -202px ; 
+                           }
+                        }
+                        &.tab-service-show{
+                           background: #333 url(../img/share02.png) no-repeat -257px -160px; 
+                           &:hover{
+                               background-color:#c69c6d ;
+                                background-position-y: -124px; 
+                           }
+                        }
+                        
+                    }
+                    span{
+                        position: absolute;
+                        right: 35px;
+                        top:0px;
+                        display: none;
+                        width: 99px;
+                        height: 33px;
+                        line-height: 35px;
+                        text-align: center;
+                        background: #fff;
+                        border: 1px solid #CCCCCC;
+                        border-right: none;
+                        b{
+                            position: absolute;
+                            right: -6px;
+                            top: 10px;
+                            width: 12px;
+                            height: 12px;
+                            background: #fff;
+                            transform:rotate(-45deg);
+                            
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .sidebar-block2{
+        position: absolute;
+        bottom: 35px;
+        right: 0;
+        ul{
+            li{
+                margin-top: 1px;
+                height: 35px;
+                a{
+                    position: relative;
+                    height: 35px;
+                    i{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 35px;
+                        height: 35px; 
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        &.tab-weixin-show{
+                           background: #333 url(../img/share02.png) no-repeat -310px -155px; 
+                           &:hover{
+                               background-color:#c69c6d ;
+                                background-position-y: -124px; 
+                           }  
+                        }
+                        &.tab-yijian-show{
+                           background: #333 url(../img/share02.png) no-repeat -373px -158px; 
+                           &:hover{
+                               background-color:#c69c6d ;
+                                background-position-y: -126px; 
+                                background-position-x: -374px;
+                           }
+                        }
+                        &.tab-lianxi-show{
+                           background: #333 url(../img/share02.png) no-repeat -373px -158px; 
+                           &:hover{
+                               background-color:#c69c6d ;
+                                background-position-y: -126px; 
+                                background-position-x: -374px;
+                           }
+                        }
+                        &.tab-backtop-show{
+                           background: #333 url(../img/share02.png) no-repeat -436px -154px; 
+                           &:hover{
+                               background-color:#c69c6d ;
+                                background-position-y: -125px; 
+                                 background-position-x: -435px;
+                           }
+                        }
+                    }
+                    span{
+                        position: absolute;
+                        right: 35px;
+                        top:0px;
+                        display: none;
+                        width: 99px;
+                        height: 33px;
+                        line-height: 35px;
+                        text-align: center;
+                        background: #fff;
+                        border: 1px solid #CCCCCC;
+                        border-right: none;
+                        b{
+                            position: absolute;
+                            right: -6px;
+                            top: 10px;
+                            width: 12px;
+                            height: 12px;
+                            background: #fff;
+                            transform:rotate(-45deg);
+                            
+                        }
+                        &.tab-weixin-hide{
+                            width: 122px;
+                            height: 136px;   
+                        }   
+                    }
+                }
+            }
+        }
+    }
+}

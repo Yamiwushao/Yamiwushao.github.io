@@ -1,0 +1,273 @@
+@charset "utf-8";
+body{font:12px/24px "宋体";color:#666;word-wrap:break-word;}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
+li{list-style:none;}
+a,u,del,s{text-decoration:none;color:#000;}
+a img{border:0;}
+i,em{font-style:normal;}
+b,th,strong{font-weight:normal;}
+img{vertical-align:middle;} 
+table{border-collapse:collapse;}
+input,textarea{outline:none;}
+
+.cu{cursor:pointer;}
+.clear{zoom:1;}
+.clearfix:after{content:"";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;}
+.clearx{clear:both;}
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.vm{vertical-align:middle;display:inline-block;}
+.vcenter{width:0px;height:100%;vertical-align:middle;display:inline-block;}
+.dis100{display:block;width:100%;height:100%;}
+.ind2{text-indent:2em;}
+.bor0{border:0;}
+.l{float:left;}
+.r{float:right;}
+.pl_1{position:relative;top:-1px;}
+.pl_2{position:relative;top:-2px;}
+
+
+
+.bg01{display:inline-block;vertical-align:middle;background:url(../images/bg01.png) no-repeat;}
+
+
+/*第一列*/
+.bg01-icon-a1{width:50px;height:50px;}
+.bg01-icon-b1{width:15px;height:15px;}
+.bg01-icon-c1{width:30px;height:30px;}
+.bg01-icon-d1{width:12px;height:12px;}
+.bg01-icon-e1{width:30px;height:30px;}
+.bg01-icon-f1{width:30px;height:30px;}
+.bg01-icon-g1{width:30px;height:30px;}
+.bg01-icon-h1{width:30px;height:30px;}
+.bg01-icon-i1{width:30px;height:30px;}
+.bg01-icon-j1{width:30px;height:30px;}
+
+.icon-a1{background-position:0 0;}
+.icon-b1{background-position:0 -50px;}
+.icon-c1{background-position:0 -100px;}
+.icon-d1{background-position:0 -150px;}
+.icon-e1{background-position:0 -200px;}
+.icon-f1{background-position:0 -250px;}
+.icon-g1{background-position:0 -300px;}
+.icon-h1{background-position:0 -350px;}
+.icon-i1{background-position:0 -400px;}
+.icon-j1{background-position:0 -450px;}
+
+
+
+/*第二列*/
+.bg01-icon-a2{width:30px;height:30px;}
+.bg01-icon-b2{width:15px;height:15px;}
+.bg01-icon-c2{width:30px;height:30px;}
+.bg01-icon-d2{width:30px;height:30px;}
+.bg01-icon-e2{width:30px;height:30px;}
+.bg01-icon-f2{width:30px;height:30px;}
+.bg01-icon-g2{width:30px;height:30px;}
+.bg01-icon-h2{width:30px;height:30px;}
+.bg01-icon-i2{width:30px;height:30px;}
+.bg01-icon-j2{width:30px;height:30px;}
+
+.icon-a2{background-position:-50px 0;}
+.icon-b2{background-position:-50px -50px;}
+.icon-c2{background-position:-50px -100px;}
+.icon-d2{background-position:-50px -150px;}
+.icon-e2{background-position:-50px -200px;}
+.icon-f2{background-position:-50px -250px;}
+.icon-g2{background-position:-50px -300px;}
+.icon-h2{background-position:-50px -350px;}
+.icon-i2{background-position:-50px -400px;}
+.icon-j2{background-position:-50px -450px;}
+
+
+/*第三列*/
+.bg01-icon-a3{width:30px;height:30px;}
+.bg01-icon-b3{width:30px;height:30px;}
+.bg01-icon-c3{width:30px;height:30px;}
+.bg01-icon-d3{width:30px;height:30px;}
+.bg01-icon-e3{width:30px;height:30px;}
+.bg01-icon-f3{width:30px;height:30px;}
+.bg01-icon-g3{width:30px;height:30px;}
+.bg01-icon-h3{width:30px;height:30px;}
+.bg01-icon-i3{width:30px;height:30px;}
+.bg01-icon-j3{width:30px;height:30px;}
+
+
+.icon-a3{background-position:-100px 0;}
+.icon-b3{background-position:-100px -50px;}
+.icon-c3{background-position:-100px -100px;}
+.icon-d3{background-position:-100px -150px;}
+.icon-e3{background-position:-100px -200px;}
+.icon-f3{background-position:-100px -250px;}
+.icon-g3{background-position:-100px -300px;}
+.icon-h3{background-position:-100px -350px;}
+.icon-i3{background-position:-100px -400px;}
+.icon-j3{background-position:-100px -450px;}
+
+
+/*第四列*/
+.bg01-icon-a4{width:30px;height:30px;}
+.bg01-icon-b4{width:30px;height:30px;}
+.bg01-icon-c4{width:30px;height:30px;}
+.bg01-icon-d4{width:30px;height:30px;}
+.bg01-icon-e4{width:30px;height:30px;}
+.bg01-icon-f4{width:30px;height:30px;}
+.bg01-icon-g4{width:30px;height:30px;}
+.bg01-icon-h4{width:30px;height:30px;}
+.bg01-icon-i4{width:30px;height:30px;}
+.bg01-icon-j4{width:30px;height:30px;}
+
+
+.icon-a4{background-position:-150px 0;}
+.icon-b4{background-position:-150px -50px;}
+.icon-c4{background-position:-150px -100px;}
+.icon-d4{background-position:-150px -150px;}
+.icon-e4{background-position:-150px -200px;}
+.icon-f4{background-position:-150px -250px;}
+.icon-g4{background-position:-150px -300px;}
+.icon-h4{background-position:-150px -350px;}
+.icon-i4{background-position:-150px -400px;}
+.icon-j4{background-position:-150px -450px;}
+
+/*第五列*/
+.bg01-icon-a5{width:30px;height:30px;}
+.bg01-icon-b5{width:30px;height:30px;}
+.bg01-icon-c5{width:30px;height:30px;}
+.bg01-icon-d5{width:30px;height:30px;}
+.bg01-icon-e5{width:30px;height:30px;}
+.bg01-icon-f5{width:30px;height:30px;}
+.bg01-icon-g5{width:30px;height:30px;}
+.bg01-icon-h5{width:30px;height:30px;}
+.bg01-icon-i5{width:30px;height:30px;}
+.bg01-icon-j5{width:30px;height:30px;}
+
+.icon-a5{background-position:-200px 0;}
+.icon-b5{background-position:-200px -50px;}
+.icon-c5{background-position:-200px -100px;}
+.icon-d5{background-position:-200px -150px;}
+.icon-e5{background-position:-200px -200px;}
+.icon-f5{background-position:-200px -250px;}
+.icon-g5{background-position:-200px -300px;}
+.icon-h5{background-position:-200px -350px;}
+.icon-i5{background-position:-200px -400px;}
+.icon-j5{background-position:-200px -450px;}
+
+/*第六列*/
+.bg01-icon-a6{width:30px;height:30px;}
+.bg01-icon-b6{width:30px;height:30px;}
+.bg01-icon-c6{width:30px;height:30px;}
+.bg01-icon-d6{width:30px;height:30px;}
+.bg01-icon-e6{width:30px;height:30px;}
+.bg01-icon-f6{width:30px;height:30px;}
+.bg01-icon-g6{width:30px;height:30px;}
+.bg01-icon-h6{width:30px;height:30px;}
+.bg01-icon-i6{width:30px;height:30px;}
+.bg01-icon-j6{width:30px;height:30px;}
+
+.icon-a6{background-position:-250px 0;}
+.icon-b6{background-position:-250px -50px;}
+.icon-c6{background-position:-250px -100px;}
+.icon-d6{background-position:-250px -150px;}
+.icon-e6{background-position:-250px -200px;}
+.icon-f6{background-position:-250px -250px;}
+.icon-g6{background-position:-250px -300px;}
+.icon-e6{background-position:-250px -350px;}
+.icon-f6{background-position:-250px -400px;}
+.icon-g6{background-position:-250px -450px;}
+
+
+/*第七列*/
+.bg01-icon-a7{width:30px;height:30px;}
+.bg01-icon-b7{width:30px;height:30px;}
+.bg01-icon-c7{width:30px;height:30px;}
+.bg01-icon-d7{width:30px;height:30px;}
+.bg01-icon-e7{width:30px;height:30px;}
+.bg01-icon-f7{width:30px;height:30px;}
+.bg01-icon-g7{width:30px;height:30px;}
+.bg01-icon-h7{width:30px;height:30px;}
+.bg01-icon-i7{width:30px;height:30px;}
+.bg01-icon-j7{width:30px;height:30px;}
+
+
+.icon-a7{background-position:-300px 0;}
+.icon-b7{background-position:-300px -50px;}
+.icon-c7{background-position:-300px -100px;}
+.icon-d7{background-position:-300px -150px;}
+.icon-e7{background-position:-300px -200px;}
+.icon-f7{background-position:-300px -250px;}
+.icon-g7{background-position:-300px -300px;}
+.icon-h7{background-position:-300px -350px;}
+.icon-i7{background-position:-300px -400px;}
+.icon-j7{background-position:-300px -450px;}
+
+/*第八列*/
+.bg01-icon-a8{width:30px;height:30px;}
+.bg01-icon-b8{width:30px;height:30px;}
+.bg01-icon-c8{width:30px;height:30px;}
+.bg01-icon-d8{width:30px;height:30px;}
+.bg01-icon-e8{width:30px;height:30px;}
+.bg01-icon-f8{width:30px;height:30px;}
+.bg01-icon-g8{width:30px;height:30px;}
+.bg01-icon-h8{width:30px;height:30px;}
+.bg01-icon-i8{width:30px;height:30px;}
+.bg01-icon-j8{width:30px;height:30px;}
+
+
+.icon-a8{background-position:-350px 0;}
+.icon-b8{background-position:-350px -50px;}
+.icon-c8{background-position:-350px -100px;}
+.icon-d8{background-position:-350px -150px;}
+.icon-e8{background-position:-350px -200px;}
+.icon-f8{background-position:-350px -250px;}
+.icon-g8{background-position:-350px -300px;}
+.icon-h8{background-position:-350px -350px;}
+.icon-i8{background-position:-350px -400px;}
+.icon-j8{background-position:-350px -450px;}
+
+/*第九列*/
+.bg01-icon-a9{width:30px;height:30px;}
+.bg01-icon-b9{width:30px;height:30px;}
+.bg01-icon-c9{width:30px;height:30px;}
+.bg01-icon-d9{width:30px;height:30px;}
+.bg01-icon-e9{width:30px;height:30px;}
+.bg01-icon-f9{width:30px;height:30px;}
+.bg01-icon-g9{width:30px;height:30px;}
+.bg01-icon-h9{width:30px;height:30px;}
+.bg01-icon-i9{width:30px;height:30px;}
+.bg01-icon-j9{width:30px;height:30px;}
+
+
+.icon-a9{background-position:-400px 0;}
+.icon-b9{background-position:-400px -50px;}
+.icon-c9{background-position:-400px -100px;}
+.icon-d9{background-position:-400px -150px;}
+.icon-e9{background-position:-400px -200px;}
+.icon-f9{background-position:-400px -250px;}
+.icon-g9{background-position:-400px -300px;}
+.icon-h9{background-position:-400px -350px;}
+.icon-i9{background-position:-400px -400px;}
+.icon-j9{background-position:-400px -450px;}
+
+
+/*第十列*/
+.bg01-icon-a10{width:30px;height:30px;}
+.bg01-icon-b10{width:30px;height:30px;}
+.bg01-icon-c10{width:30px;height:30px;}
+.bg01-icon-d10{width:30px;height:30px;}
+.bg01-icon-e10{width:30px;height:30px;}
+.bg01-icon-f10{width:30px;height:30px;}
+.bg01-icon-g10{width:30px;height:30px;}
+.bg01-icon-h10{width:30px;height:30px;}
+.bg01-icon-i10{width:30px;height:30px;}
+.bg01-icon-j10{width:30px;height:30px;}
+
+
+.icon-a10{background-position:-450px 0;}
+.icon-b10{background-position:-450px -50px;}
+.icon-c10{background-position:-450px -100px;}
+.icon-d10{background-position:-450px -150px;}
+.icon-e10{background-position:-450px -200px;}
+.icon-f10{background-position:-450px -250px;}
+.icon-g10{background-position:-450px -300px;}
+.icon-h10{background-position:-450px -350px;}
+.icon-i10{background-position:-450px -400px;}
+.icon-j10{background-position:-450px -450px;}

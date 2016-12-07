@@ -1,0 +1,346 @@
+
+$co999: #999;
+$cohover:#b28247;
+
+@function priceItemW($w,$item){
+    @return $w/$item;
+}
+
+.margin{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#gdetai-wrap{
+    height: 627px;
+    border: 1px solid #E2E2E2;
+    padding-top:15px;
+    margin-top:50px;
+}
+#gdetai-wrap .gdetai-imgs{
+    float: left;
+    width: 420px;
+    height: 100%;
+}
+#gdetai-wrap .gdetai-imgs img{
+    width: 100%;
+    height: 100%;
+}
+
+#gdetai-wrap .gdetai-info{
+    float: right;
+    width: 560px;
+    height: 100%;
+    .info-title{
+       height: 90px ; 
+       line-height: 30px;
+       border-bottom: 1px dashed $co999;
+       .brand{
+           font-size: 18px;
+           a{
+             color:$co999;
+             &:hover{
+                   color:$cohover ;
+               }  
+           }
+       }
+       .style{
+           font-size: 18px;
+           a{
+               color:#000 ;
+               &:hover{
+                   color:$cohover ;
+               }
+           }
+       }
+       .gno{
+           font-size: 12px;
+           color: $co999;
+       }
+    }
+    .info-price{
+        height: 105px;
+        color: $cohover;
+        border-bottom: 1px dashed $co999;
+        .price-item{
+            $w : 560px;
+            $item : 4;
+            width: priceItemW($w,$item);
+            height: 100%;
+            float: left;
+            text-align: center;
+            .s-price{
+                margin-top: 24px;
+                font-size: 28px;
+                line-height: 34px;
+                text-align: center;
+            }
+            .m-price{
+                font-size: 16px;
+                line-height: 30px;
+                text-decoration: line-through;
+               
+            }
+            .price-type-show{
+                display: inline-block;
+                width: 80px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 12px;
+                margin-top: 33px;
+                background: $cohover;
+                color: #fff;
+                border-radius: 10px;
+            }
+            .price-pro{
+                display: inline-block;
+                width: 68px;
+                height: 68px;
+                margin-top:12px;   
+            }
+        } 
+        .price-type{
+            position: relative;
+            .price-type-a{
+                position: absolute;
+                display: inline-block;
+                padding:0 14px;
+                height: 32px;
+                z-index: 2;
+                top: 35px;
+                right: 20px;
+                b{
+                    float: left;
+                    width:20px ;
+                    height: 100%;
+                    background: url(../img/brandstore_share.png) -349px -287px;    
+                }
+                span{
+                   float: left; 
+                   margin-left: 10px;
+                   height: 100%;
+                   line-height: 30px;
+                   font-size: 14px;
+                   color: $cohover;
+                   font-family: "microsoft yahei";   
+                }
+                
+            }
+            .hover{
+                    border: 1px solid $co999;
+                    border-bottom: 0;
+                    top:34px;
+                    right: 19px;
+                    background: #fff;
+                }
+            .price-type-hide{
+                display: none;
+                position: absolute;
+                top: 66px;
+                right: 19px;
+                width:200px ;
+                border: 1px solid $co999;
+                background: #fff;
+                padding: 10px 0;
+                border-radius: 2px;
+                p{
+                    line-height: 26px;
+                    height: 26px;
+                    font-size: 14px;
+                    font-family: "microsoft yahei";
+                    color: #000;
+                }
+                a{
+                    display: inline-block;
+                    width: 110px;
+                    height: 24px;
+                    line-height: 24px;
+                    background: $cohover;
+                    color: #fff;
+                    margin-top: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }  
+    }
+    .info-txt{
+        float: left;
+        width: 70px;
+        padding-left:10px ;
+        
+    }
+    .info-actives{
+        border-bottom: 1px dashed $co999;
+        font:12px/35px "microsoft yahei"; 
+        .actives-txt{
+            height: 100%;
+            color: #000;
+            font-weight: 700;
+        }
+        .actives-list{
+            float: left;
+            width: 480px;
+            .list-show{
+                .show-first{
+                    float: left;
+                    color: $cohover;
+                }
+                .show-more{
+                    float: right;
+                    margin:12px 28px 0 0;
+                    b{
+                       display: block;
+                       width: 25px;
+                       height: 25px;
+                       background: url(../img/brandstore_share.png) -390px -294px; 
+                    }
+                }
+            }
+            .list-hide{
+                display: none;
+                color: $cohover;
+            }
+        }
+    }
+    .info-attr{
+        border-bottom: 1px dashed $co999;
+        .attr-item{
+            height: 60px;
+            line-height: 60px;
+            .attr-list{
+                float: left;
+                height: 100%;
+                li{
+                    margin: 14px 10px 14px 0;
+                    float: left;
+                    height: 32px;
+                    border: 1px solid $co999;;
+                    a{
+                        display: block;
+                        line-height: 32px;  
+                        padding:0 4px;
+                        &:hover{
+                            color: $cohover;
+                        }
+                    }
+                }
+                li.active{
+                    border: 1px solid #d00000;;
+                }
+                
+            }
+            .amount-list{
+                float: left;
+                text-align: center;
+                padding: 18px 0;
+                .amo-dec{
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    background: #c8a985;
+                    line-height: 22px;
+                }
+                .amo-ipt{
+                   float: left;
+                   width: 44px; 
+                   height: 20px;
+                   border:1px solid $co999;
+                   margin:0 3px;
+                   text-align: center;
+                }
+                .amo-inc{
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    line-height: 22px;
+                    background: #c8a985;
+                }
+            }
+        }
+        
+        
+    }
+    .info-tip{
+        .tip-pro{
+            display: none;
+        }
+        span{
+            color: $cohover;
+            text-decoration:underline ;
+        }
+        .tip-item{
+            height: 24px;
+            line-height: 24px;
+            color: $co999;
+            .look-detail{
+                color:$co999;
+            }
+            .look-content{
+                display: none;
+            }
+        }
+        
+    }
+    .info-btn{
+        margin-top: 15px;
+        height: 35px;
+        font-size: 14px;
+        font-family: "microsoft yahei";
+        line-height: 33px;
+        text-align: center;
+        .btn-immbuy{
+            float: left;
+            width: 118px;
+            line-height: 33px;
+            text-align: center;
+            color: $cohover;
+            
+            border: 1px solid $cohover;
+        }
+        .btn-addcart{
+            float: left;
+            padding: 0 30px;
+            background-color: $cohover;
+            border: 1px solid $cohover;
+            color: #fff;
+            margin-left: 10px;
+            b{
+                display: inline-block;
+                width: 23px;
+                height: 23px;
+                background: url(../img/brandstore_share.png) -272px -340px;
+                vertical-align:middle;
+                margin-top:-1px;
+                
+            }
+        }
+    }
+    
+}
+.modal-wrap{
+    display: none;
+    position:absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    
+    .wrap-bg{
+        position: relative;
+        height: 100%;
+        background: $cohover;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+    .wrap-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -150px;
+        width: 300px;
+        height: 200px;
+        background: #fff;
+        text-align: center;
+    }
+}

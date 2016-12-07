@@ -1,0 +1,268 @@
+.margin {
+  width: 1100px;
+  margin: 0 auto; }
+
+#gdetai-wrap {
+  height: 627px;
+  border: 1px solid #E2E2E2;
+  padding-top: 15px;
+  margin-top: 50px; }
+
+#gdetai-wrap .gdetai-imgs {
+  float: left;
+  width: 420px;
+  height: 100%; }
+
+#gdetai-wrap .gdetai-imgs img {
+  width: 100%;
+  height: 100%; }
+
+#gdetai-wrap .gdetai-info {
+  float: right;
+  width: 560px;
+  height: 100%; }
+  #gdetai-wrap .gdetai-info .info-title {
+    height: 90px;
+    line-height: 30px;
+    border-bottom: 1px dashed #999; }
+    #gdetai-wrap .gdetai-info .info-title .brand {
+      font-size: 18px; }
+      #gdetai-wrap .gdetai-info .info-title .brand a {
+        color: #999; }
+        #gdetai-wrap .gdetai-info .info-title .brand a:hover {
+          color: #b28247; }
+    #gdetai-wrap .gdetai-info .info-title .style {
+      font-size: 18px; }
+      #gdetai-wrap .gdetai-info .info-title .style a {
+        color: #000; }
+        #gdetai-wrap .gdetai-info .info-title .style a:hover {
+          color: #b28247; }
+    #gdetai-wrap .gdetai-info .info-title .gno {
+      font-size: 12px;
+      color: #999; }
+  #gdetai-wrap .gdetai-info .info-price {
+    height: 105px;
+    color: #b28247;
+    border-bottom: 1px dashed #999; }
+    #gdetai-wrap .gdetai-info .info-price .price-item {
+      width: 140px;
+      height: 100%;
+      float: left;
+      text-align: center; }
+      #gdetai-wrap .gdetai-info .info-price .price-item .s-price {
+        margin-top: 24px;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center; }
+      #gdetai-wrap .gdetai-info .info-price .price-item .m-price {
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration: line-through; }
+      #gdetai-wrap .gdetai-info .info-price .price-item .price-type-show {
+        display: inline-block;
+        width: 80px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        margin-top: 33px;
+        background: #b28247;
+        color: #fff;
+        border-radius: 10px; }
+      #gdetai-wrap .gdetai-info .info-price .price-item .price-pro {
+        display: inline-block;
+        width: 68px;
+        height: 68px;
+        margin-top: 12px; }
+    #gdetai-wrap .gdetai-info .info-price .price-type {
+      position: relative; }
+      #gdetai-wrap .gdetai-info .info-price .price-type .price-type-a {
+        position: absolute;
+        display: inline-block;
+        padding: 0 14px;
+        height: 32px;
+        z-index: 2;
+        top: 35px;
+        right: 20px; }
+        #gdetai-wrap .gdetai-info .info-price .price-type .price-type-a b {
+          float: left;
+          width: 20px;
+          height: 100%;
+          background: url(../img/brandstore_share.png) -349px -287px; }
+        #gdetai-wrap .gdetai-info .info-price .price-type .price-type-a span {
+          float: left;
+          margin-left: 10px;
+          height: 100%;
+          line-height: 30px;
+          font-size: 14px;
+          color: #b28247;
+          font-family: "microsoft yahei"; }
+      #gdetai-wrap .gdetai-info .info-price .price-type .hover {
+        border: 1px solid #999;
+        border-bottom: 0;
+        top: 34px;
+        right: 19px;
+        background: #fff; }
+      #gdetai-wrap .gdetai-info .info-price .price-type .price-type-hide {
+        display: none;
+        position: absolute;
+        top: 66px;
+        right: 19px;
+        width: 200px;
+        border: 1px solid #999;
+        background: #fff;
+        padding: 10px 0;
+        border-radius: 2px; }
+        #gdetai-wrap .gdetai-info .info-price .price-type .price-type-hide p {
+          line-height: 26px;
+          height: 26px;
+          font-size: 14px;
+          font-family: "microsoft yahei";
+          color: #000; }
+        #gdetai-wrap .gdetai-info .info-price .price-type .price-type-hide a {
+          display: inline-block;
+          width: 110px;
+          height: 24px;
+          line-height: 24px;
+          background: #b28247;
+          color: #fff;
+          margin-top: 5px;
+          border-radius: 5px; }
+  #gdetai-wrap .gdetai-info .info-txt {
+    float: left;
+    width: 70px;
+    padding-left: 10px; }
+  #gdetai-wrap .gdetai-info .info-actives {
+    border-bottom: 1px dashed #999;
+    font: 12px/35px "microsoft yahei"; }
+    #gdetai-wrap .gdetai-info .info-actives .actives-txt {
+      height: 100%;
+      color: #000;
+      font-weight: 700; }
+    #gdetai-wrap .gdetai-info .info-actives .actives-list {
+      float: left;
+      width: 480px; }
+      #gdetai-wrap .gdetai-info .info-actives .actives-list .list-show .show-first {
+        float: left;
+        color: #b28247; }
+      #gdetai-wrap .gdetai-info .info-actives .actives-list .list-show .show-more {
+        float: right;
+        margin: 12px 28px 0 0; }
+        #gdetai-wrap .gdetai-info .info-actives .actives-list .list-show .show-more b {
+          display: block;
+          width: 25px;
+          height: 25px;
+          background: url(../img/brandstore_share.png) -390px -294px; }
+      #gdetai-wrap .gdetai-info .info-actives .actives-list .list-hide {
+        display: none;
+        color: #b28247; }
+  #gdetai-wrap .gdetai-info .info-attr {
+    border-bottom: 1px dashed #999; }
+    #gdetai-wrap .gdetai-info .info-attr .attr-item {
+      height: 60px;
+      line-height: 60px; }
+      #gdetai-wrap .gdetai-info .info-attr .attr-item .attr-list {
+        float: left;
+        height: 100%; }
+        #gdetai-wrap .gdetai-info .info-attr .attr-item .attr-list li {
+          margin: 14px 10px 14px 0;
+          float: left;
+          height: 32px;
+          border: 1px solid #999; }
+          #gdetai-wrap .gdetai-info .info-attr .attr-item .attr-list li a {
+            display: block;
+            line-height: 32px;
+            padding: 0 4px; }
+            #gdetai-wrap .gdetai-info .info-attr .attr-item .attr-list li a:hover {
+              color: #b28247; }
+        #gdetai-wrap .gdetai-info .info-attr .attr-item .attr-list li.active {
+          border: 1px solid #d00000; }
+      #gdetai-wrap .gdetai-info .info-attr .attr-item .amount-list {
+        float: left;
+        text-align: center;
+        padding: 18px 0; }
+        #gdetai-wrap .gdetai-info .info-attr .attr-item .amount-list .amo-dec {
+          float: left;
+          width: 22px;
+          height: 22px;
+          background: #c8a985;
+          line-height: 22px; }
+        #gdetai-wrap .gdetai-info .info-attr .attr-item .amount-list .amo-ipt {
+          float: left;
+          width: 44px;
+          height: 20px;
+          border: 1px solid #999;
+          margin: 0 3px;
+          text-align: center; }
+        #gdetai-wrap .gdetai-info .info-attr .attr-item .amount-list .amo-inc {
+          float: left;
+          width: 22px;
+          height: 22px;
+          line-height: 22px;
+          background: #c8a985; }
+  #gdetai-wrap .gdetai-info .info-tip .tip-pro {
+    display: none; }
+  #gdetai-wrap .gdetai-info .info-tip span {
+    color: #b28247;
+    text-decoration: underline; }
+  #gdetai-wrap .gdetai-info .info-tip .tip-item {
+    height: 24px;
+    line-height: 24px;
+    color: #999; }
+    #gdetai-wrap .gdetai-info .info-tip .tip-item .look-detail {
+      color: #999; }
+    #gdetai-wrap .gdetai-info .info-tip .tip-item .look-content {
+      display: none; }
+  #gdetai-wrap .gdetai-info .info-btn {
+    margin-top: 15px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    line-height: 33px;
+    text-align: center; }
+    #gdetai-wrap .gdetai-info .info-btn .btn-immbuy {
+      float: left;
+      width: 118px;
+      line-height: 33px;
+      text-align: center;
+      color: #b28247;
+      border: 1px solid #b28247; }
+    #gdetai-wrap .gdetai-info .info-btn .btn-addcart {
+      float: left;
+      padding: 0 30px;
+      background-color: #b28247;
+      border: 1px solid #b28247;
+      color: #fff;
+      margin-left: 10px; }
+      #gdetai-wrap .gdetai-info .info-btn .btn-addcart b {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        background: url(../img/brandstore_share.png) -272px -340px;
+        vertical-align: middle;
+        margin-top: -1px; }
+
+.modal-wrap {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  .modal-wrap .wrap-bg {
+    position: relative;
+    height: 100%;
+    background: #b28247;
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
+  .modal-wrap .wrap-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    text-align: center; }
+
+/*# sourceMappingURL=detail.css.map */

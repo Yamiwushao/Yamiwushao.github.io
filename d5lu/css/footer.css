@@ -1,0 +1,72 @@
+.foot {
+  height: 600px;
+  border-top: 1px solid #c9c9c9;
+  background: url(../img/foot_bg.jpg) no-repeat bottom; }
+  .foot .foot-top {
+    width: 100%;
+    height: 116px;
+    border-bottom: 1px solid #c9c9c9; }
+    .foot .foot-top ul {
+      height: 100%; }
+      .foot .foot-top ul li {
+        width: 242px;
+        padding: 26px 0;
+        float: left; }
+        .foot .foot-top ul li a {
+          display: block;
+          padding-left: 80px; }
+          .foot .foot-top ul li a img {
+            width: 64px;
+            height: 64px;
+            margin-left: -70px;
+            float: left; }
+          .foot .foot-top ul li a h3 {
+            font: 700 12px/24px "microsoft yahei";
+            color: #000;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding-top: 5px; }
+          .foot .foot-top ul li a p {
+            font: 12px/24px "microsoft yahei";
+            color: #000; }
+            .foot .foot-top ul li a p:hover {
+              text-decoration: underline; }
+  .foot .foot-center {
+    height: 283px;
+    padding-left: 20px; }
+    .foot .foot-center .center-item {
+      float: left;
+      width: 185px;
+      height: 100%;
+      font: 12px "microsoft yahei"; }
+      .foot .foot-center .center-item .item-title {
+        line-height: 65px;
+        font-weight: 700;
+        color: #000; }
+      .foot .foot-center .center-item li {
+        line-height: 24px; }
+        .foot .foot-center .center-item li a {
+          display: inline-block;
+          height: 100%;
+          color: #000; }
+      .foot .foot-center .center-item.app {
+        width: 140px; }
+      .foot .foot-center .center-item.weibo {
+        width: 125px; }
+  .foot .foot-bottom {
+    text-align: center;
+    font: 12px "microsoft yahei";
+    color: #fff; }
+    .foot .foot-bottom .bottom-nav {
+      line-height: 66px; }
+      .foot .foot-bottom .bottom-nav a {
+        color: #fff;
+        margin: 0 5px; }
+    .foot .foot-bottom .bottom-firend a {
+      color: #fff;
+      margin: 0 5px; }
+    .foot .foot-bottom .bottom-pro {
+      margin-top: 23px; }
+
+/*# sourceMappingURL=footer.css.map */

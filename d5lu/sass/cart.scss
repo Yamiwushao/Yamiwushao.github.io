@@ -1,0 +1,163 @@
+@charset "utf-8";
+$baseColor:#ebeaea;
+$borderColor:#b3b3b3;
+$aColor:#c8a985;
+.margin{
+    width: 1190px;
+    margin: 0 auto;
+}
+#cart-wrap{
+    .cart-tbody{
+        min-height:200px;
+        .tbody-header{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            font-family: "microsoft yahei";
+            font-size: 14px;
+            color: #000;
+            background-color:$baseColor;
+            li{
+                float: left;
+                text-align: center;
+            } 
+            .header-checkall{
+                width: 75px;
+               
+                .checked-ipt{
+                    float: left;
+                    height: 40px;
+                    margin:0 10px;
+                }
+                label{
+                    float: left;
+                }
+            }  
+            .header-gimg{
+                width: 118px;
+            }.header-name{
+                width: 205px;
+            }
+            .header-attr{
+                width: 125px;
+            }
+            .header-sprice{
+                width: 144px;
+            }
+            .header-amount{
+                width: 110px;
+            }
+            .header-active{
+                width: 190px;
+            }
+            .header-sum{
+                width: 135px;
+            }
+            .header-control{
+                width: 88px;
+                text-align: left;
+            }
+        }
+        //商品列表
+        .tbody-item{
+            height: 100px;
+            border-bottom: 1px solid $borderColor;
+            text-align: center;
+            font-size: 12px;
+            font-family: "microsoft yahei";
+            color: #000;
+            li{
+                float: left;
+                height: 100%;
+            }
+            .item-checked{
+                width: 75px;
+                .checked-ipt{
+                    float: left;
+                    height: 100%;
+                    margin:0 10px;
+                }   
+            }
+            .item-gimg{
+                width: 118px;
+                img{
+                        width: 95px;
+                        height: 95px;
+                }
+            }
+            .item-name{
+                width: 205px;
+                display: table;
+                a{
+                   display: table-cell;
+                   vertical-align: middle;
+                }
+            }
+            .item-midl{
+                   display: table-cell;
+                   vertical-align: middle;
+            }
+            .item-attr{
+                display: table;
+                width: 125px;
+            }
+            .item-sprice{
+                display: table;
+                width: 144px;
+            }
+            .item-amount{
+                width: 110px;
+                display: table;
+                text-align: center;
+                a{
+                    float: left;
+                    width:20px ;
+                    height:20px;
+                    background-color: $aColor;
+                    line-height: 20px;
+                }
+                .amo-ipt{
+                    float: left;
+                    width:52px ;
+                    height:18px; 
+                    border: 1px solid $borderColor;   
+                    text-align: center;
+                }
+            }
+            .item-active{
+                display: table;
+                width: 190px;
+            }
+            .item-sum{
+                display: table;
+                width: 135px;
+                font-weight: 700;
+            }
+            .item-control{
+                display: table;
+                width: 88px;
+                text-align: left;
+                a{
+                    display: block;
+                    color: #0000ff;
+                   
+                }
+                .package-btn{
+                    color: #cc0000;
+                    b{
+                       display:inline-block;
+                       vertical-align: middle;
+                       width: 20px;
+                       height: 20px; 
+                       background-image: url(../img/cartscript.png);
+                       background-position:-360px -50px ;
+                       margin-right:5px ;
+                       margin-top: -8px;
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+
