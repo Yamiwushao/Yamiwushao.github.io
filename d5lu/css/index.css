@@ -4,8 +4,7 @@
   width: 100%;
   overflow: hidden; }
   #banner .img-wrap {
-    width: 600%;
-    margin-left: -88px; }
+    width: 600%; }
     #banner .img-wrap img {
       float: left; }
   #banner .arrow {
@@ -17,12 +16,12 @@
     left: 145px;
     width: 29px;
     height: 49px;
-    background: url(../img/banner/templateleft.png); }
+    background: url("../img/banner/templateleft.png"); }
   #banner .arrow-right {
     right: 145px;
     width: 29px;
     height: 49px;
-    background: url(../img/banner/templateright.png); }
+    background: url("../img/banner/templateright.png"); }
   #banner .circle-wrap {
     position: absolute;
     bottom: 20px;
@@ -46,7 +45,8 @@
         background: #d00000; }
 
 #main {
-  min-height: 800px; }
+  min-height: 400px;
+  padding-bottom: 50px; }
   #main .flagship-brand .flagship-title {
     padding: 40px 0 28px; }
   #main .flagship-brand .flagship-list {
@@ -81,7 +81,7 @@
               font: 14px/24px "microsoft yahei"; }
               #main .flagship-brand .flagship-list ul li a .flagship-content .flagship-hide .brand-img {
                 width: 60px;
-                margin: 10px 0 3px 0; }
+                margin: 10px 0 3px; }
               #main .flagship-brand .flagship-list ul li a .flagship-content .flagship-hide .slice-line {
                 width: 20px;
                 height: 2px;
@@ -89,10 +89,26 @@
                 background: #000000; }
               #main .flagship-brand .flagship-list ul li a .flagship-content .flagship-hide .enbrand {
                 margin-top: 30px; }
+  #main .flagship-brand .hot-store .hotstore-title .hot-title-pic {
+    float: left; }
+  #main .flagship-brand .hot-store .hotstore-title .list-btn {
+    margin-top: 40px;
+    margin-right: 5px;
+    float: right; }
+    #main .flagship-brand .hot-store .hotstore-title .list-btn span {
+      cursor: pointer;
+      display: inline-block;
+      width: 10px;
+      height: 20px; }
+    #main .flagship-brand .hot-store .hotstore-title .list-btn .btn-l {
+      background: url("../img/share02.png") -160px -381px;
+      margin-right: 20px; }
+    #main .flagship-brand .hot-store .hotstore-title .list-btn .btn-r {
+      background: url("../img/share02.png") -178px -381px; }
   #main .flagship-brand .hot-store .hotstore-list {
     overflow: hidden; }
     #main .flagship-brand .hot-store .hotstore-list ul {
-      width: 110%; }
+      width: 10000%; }
       #main .flagship-brand .hot-store .hotstore-list ul li {
         position: relative;
         float: left;
@@ -220,7 +236,7 @@
             margin-right: 8px; }
           #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell3 {
             width: 220px;
-            margin-right: 0px; }
+            margin-right: 0; }
           #main .hot-items .hot-items-box .items-content ul li .content-r .r-bottom {
             width: 271px;
             height: 255px;
@@ -230,8 +246,9 @@
           #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell4 .pic {
             margin-top: -13px; }
           #main .hot-items .hot-items-box .items-content ul li .content-r .r-cell6 {
-            margin-right: 0px; }
+            margin-right: 0; }
       #main .hot-items .hot-items-box .items-content ul .starsame .content-l {
+        float: left;
         position: relative; }
         #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal {
           display: none;
@@ -244,7 +261,7 @@
             position: relative;
             width: 100%;
             height: 100%;
-            background: url(../img/hotitems/darwin_mask_bg.png); }
+            background: url("../img/hotitems/darwin_mask_bg.png"); }
           #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal .modal-box {
             padding-top: 20px;
             position: absolute;
@@ -266,5 +283,239 @@
               background: #fff; }
             #main .hot-items .hot-items-box .items-content ul .starsame .content-l .l-modal .modal-box .star {
               font-size: 12px; }
+      #main .hot-items .hot-items-box .items-content ul .starsame .content-r {
+        width: 802px;
+        float: left;
+        position: relative; }
+        #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl {
+          width: 110%; }
+          #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl dd {
+            position: relative;
+            width: 398px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            float: left; }
+            #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl dd .r-modal {
+              display: none;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%; }
+              #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl dd .r-modal .modal-bg {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background: url("../img/hotitems/darwin_mask_bg.png"); }
+              #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl dd .r-modal .modal-box {
+                padding-top: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -131px;
+                margin-top: -90px;
+                width: 260px;
+                height: 120px;
+                border: 1px solid #fff;
+                color: #fff;
+                text-align: center;
+                font: 18px/28px "microsoft yahei"; }
+                #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl dd .r-modal .modal-box .slice-line {
+                  display: block;
+                  margin: 8px auto;
+                  width: 20px;
+                  height: 2px;
+                  background: #fff; }
+                #main .hot-items .hot-items-box .items-content ul .starsame .content-r dl dd .r-modal .modal-box .star {
+                  font-size: 12px; }
+  #main .shopping-mall {
+    width: 100%; }
+    #main .shopping-mall .shopmall-wrap {
+      width: 100%; }
+      #main .shopping-mall .shopmall-wrap .shopmall-nav {
+        width: 100%; }
+        #main .shopping-mall .shopmall-wrap .shopmall-nav ul {
+          width: 110%; }
+          #main .shopping-mall .shopmall-wrap .shopmall-nav ul li {
+            width: 234px;
+            height: 50px;
+            overflow: hidden;
+            float: left;
+            margin-right: 10px; }
+            #main .shopping-mall .shopmall-wrap .shopmall-nav ul li .nav-box {
+              width: 100%;
+              height: 100px;
+              text-align: center; }
+              #main .shopping-mall .shopmall-wrap .shopmall-nav ul li .nav-box .nav-box-show {
+                display: block;
+                width: 100%;
+                height: 50px;
+                background: #999;
+                color: #fff;
+                font: 14px/50px "microsoft yahei"; }
+              #main .shopping-mall .shopmall-wrap .shopmall-nav ul li .nav-box .nav-box-hide {
+                display: block;
+                width: 223px;
+                height: 38px;
+                padding: 5px;
+                background: #000;
+                color: #fff; }
+                #main .shopping-mall .shopmall-wrap .shopmall-nav ul li .nav-box .nav-box-hide p {
+                  font: 14px/38px "microsoft yahei";
+                  border: 1px solid #fff; }
+      #main .shopping-mall .shopmall-wrap .shopmall-list ul li {
+        height: 432px; }
+        #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item {
+          height: 100%; }
+          #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-title {
+            line-height: 60px; }
+            #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-title .title-r {
+              display: block; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-title .title-r span {
+                display: inline-block;
+                font: 16px/60px "microsoft yahei"; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-title .title-r i {
+                display: inline-block;
+                width: 17px;
+                height: 15px;
+                background: url("../img/share02.png") -471px -383px;
+                margin-left: 5px; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-title .title-r:hover {
+                color: #b28247; }
+          #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box {
+            height: 372px; }
+            #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul li {
+              float: left; }
+            #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l {
+              width: 220px;
+              height: 366px;
+              padding: 4px 9px 0;
+              border: 1px solid #ccc; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .good-links {
+                padding-bottom: 12px;
+                border-bottom: 1px dashed #ccc; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .good-links dd {
+                  float: left;
+                  width: 110px;
+                  height: 36px;
+                  font-size: 14px;
+                  line-height: 36px;
+                  font-family: "microsoft yahei"; }
+                  #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .good-links dd a:hover {
+                    color: #b28247; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .good-logos {
+                width: 220px;
+                height: 114px;
+                margin-top: 15px;
+                overflow: hidden; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .good-logos dl dd {
+                  width: 220px;
+                  float: left; }
+                  #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .good-logos dl dd img {
+                    float: left;
+                    width: 90px;
+                    margin: 0 2px 12px 12px; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .logos-btn {
+                text-align: center; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .logos-btn .circle-s {
+                  display: inline-block; }
+                  #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .logos-btn .circle-s span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    background: #999;
+                    border-radius: 50%;
+                    margin: 0px 5px;
+                    cursor: pointer; }
+                    #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .logos-btn .circle-s span:hover {
+                      background: #b28247; }
+                    #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .logos-btn .circle-s span.active {
+                      background: #b28247; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-l .logo-banner .logos-btn .arrow {
+                  cursor: pointer; }
+            #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c {
+              width: 390px;
+              height: 370px;
+              position: relative;
+              margin: 0 10px; }
+              #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c .goods-logo {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                margin-left: -125px;
+                width: 250px;
+                height: 90px;
+                background: url(../img/shoppingcenter/darwin_mask_bgfff.png);
+                text-align: center;
+                font-family: "microsoft yahei"; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c .goods-logo p {
+                  margin: 3px 0; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c .goods-logo .p1 {
+                  line-height: 24px;
+                  font-size: 13px; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c .goods-logo .p2 {
+                  height: 2px;
+                  width: 20px;
+                  background: #000000;
+                  margin: 0 auto; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c .goods-logo .p3 {
+                  line-height: 24px;
+                  font-size: 14px; }
+                #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-c .goods-logo .p4 {
+                  line-height: 17px;
+                  font-size: 17px; }
+            #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .box-goods-r {
+              height: 180px;
+              border: 1px solid #ccc;
+              margin: 0 6px 5px 0; }
+            #main .shopping-mall .shopmall-wrap .shopmall-list ul li .sm-list-item .item-box ul .margin0 {
+              margin: 0 0 5px 0; }
+  #main .promotion .promotion-content1 ul {
+    width: 105%; }
+    #main .promotion .promotion-content1 ul li {
+      float: left;
+      margin: 0 10px 10px 0; }
+      #main .promotion .promotion-content1 ul li a {
+        display: inline-block; }
+  #main .promotion .promotion-content2 ul.promotionbox {
+    width: 610px;
+    float: left; }
+    #main .promotion .promotion-content2 ul.promotionbox li {
+      position: relative;
+      width: 192px;
+      height: 63px;
+      float: left;
+      margin: 0 7px 10px 0;
+      border: 1px solid #ccc; }
+      #main .promotion .promotion-content2 ul.promotionbox li a {
+        display: inline-block; }
+      #main .promotion .promotion-content2 ul.promotionbox li .top-line {
+        position: absolute;
+        top: -1px;
+        left: 0;
+        height: 1px;
+        background: #000000; }
+      #main .promotion .promotion-content2 ul.promotionbox li .bottom-line {
+        position: absolute;
+        bottom: -1px;
+        right: 0;
+        height: 1px;
+        background: #000000; }
+      #main .promotion .promotion-content2 ul.promotionbox li .left-line {
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 1px;
+        background: #000000; }
+      #main .promotion .promotion-content2 ul.promotionbox li .right-line {
+        position: absolute;
+        bottom: -1px;
+        right: -1px;
+        width: 1px;
+        background: #000000; }
+  #main .promotion .promotion-content2 .bank {
+    float: left;
+    width: 600px;
+    height: 138px; }
 
 /*# sourceMappingURL=index.css.map */

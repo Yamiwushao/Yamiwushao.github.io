@@ -67,8 +67,11 @@ var header = {
 			//商品分类
 			$(".goods-categorys").hover(function(){
 				$(".categorys-wrap").show();
+				$(".big-modal").height($("body").height());
+				$(".big-modal").show();
 			},function(){
 				$(".categorys-wrap").hide();
+				$(".big-modal").hide();
 			});
 			
 			//分类列表的生成
@@ -85,8 +88,10 @@ var header = {
 			
 			//鼠标滑过分类列表时的效果
 			$('.categorys-wrap').find(".wrap-item").on('mouseenter mouseleave',function(e){
+				/*$(".big-modal").height($("body").height());
+				$(".big-modal").show();*/
+				
 				var index = $(this).index();
-				console.log(index);
 				if(e.type == "mouseenter"){
 					//执行鼠标进入事件
 					//背景淡入
@@ -94,7 +99,6 @@ var header = {
 					
 					//前面图片的改变
 					var bgUrl = "url(img/cate2.png) no-repeat 0px "+ (-25*index) + "px";
-					console.log(bgUrl);
 					$(this).find('i').css({
 						background : bgUrl
 					});
@@ -111,13 +115,12 @@ var header = {
 					$(this).find('.cate-content').show();
 					
 				}else{
-					
+					//$(".big-modal").hide();
 					//背景淡出
 					$(this).find(" .cate-item").css({opacity:0.85});
 					
 					//前面图片的改变
 					var bgUrl = "url(img/cate1.png) no-repeat 0px "+ (-25*index) + "px";
-					console.log(bgUrl);
 					$(this).find('i').css({
 						background : bgUrl
 					});

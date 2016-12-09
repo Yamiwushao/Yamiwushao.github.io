@@ -1,0 +1,12 @@
+#header {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 15px; }
+  #header .logo-box span {
+    font-family: "helvetica";
+    font-size: 18px;
+    font-weight: 700;
+    color: #888888;
+    margin-left: 10px; }
+
+/*# sourceMappingURL=register.css.map */

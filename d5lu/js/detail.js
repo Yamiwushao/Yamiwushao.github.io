@@ -1,5 +1,13 @@
 $(function(){
+	//加载头部文件
+	$.getScript("js/header.js");
 
+	//加载尾部文件
+	$.getScript("js/footer.js");
+
+	//加载侧边栏
+	$.getScript("js/sidebar.js");
+	
 	var detail = {
 		//商品数量输入框
 		amountIpt : $('.amo-ipt'),

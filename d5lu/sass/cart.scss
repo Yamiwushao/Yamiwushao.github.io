@@ -7,6 +7,16 @@ $aColor:#c8a985;
     margin: 0 auto;
 }
 #cart-wrap{
+    padding-bottom: 20px;
+    .cart-title{
+         padding: 30px 0px;
+        p{
+            float: right;
+            height: 47px;
+            width: 700px;
+            background:url(../img/cart/cart_step.jpg);
+        }
+    }
     .cart-tbody{
         min-height:200px;
         .tbody-header{
@@ -24,7 +34,7 @@ $aColor:#c8a985;
             .header-checkall{
                 width: 75px;
                
-                .checked-ipt{
+                .check-all{
                     float: left;
                     height: 40px;
                     margin:0 10px;
@@ -155,6 +165,69 @@ $aColor:#c8a985;
                        margin-top: -8px;
                        
                     }
+                }
+            }
+        }
+        //结算部分
+        .tbody-ender{
+            text-align: left;
+            margin-top: 35px;
+            font-family: "microsoft yahei";
+            li{
+                float: left;
+                height: 36px;
+                line-height: 36px;
+            }
+            .ender-checkall{
+                width: 40px;
+                padding-left: 10px;
+                margin-right: 10px;
+                #check-all2{
+                    float: left;
+                    height: 36px;
+                    margin-right: 2px;
+                    margin-top: 2px;
+                }
+                label{
+                    float:left;
+                }
+            }
+            .go-not{
+                width: 200px;
+            }
+            .ender-space{
+                width: 438px;
+            }
+            .ender-total{
+                width:344px ;
+                p{
+                    float: left;
+                    height: 36px;
+                    margin-right: 15px;
+                    .checked-amount{
+                       // width: ;
+                        color: #D00000;
+                        width: 18px;
+                    }
+                    .total-money{
+                        font-size: 20px;
+                        line-height: 32px;
+                        font-weight: 700;
+                        color: #D00000;
+                        margin: 0 10px;
+                        width: 98px;
+                    }
+                }
+            }
+            .ender-buttom{
+                .pay-btn{
+                    width:138px ;
+                    height: 35px;
+                    background: #d73128;
+                    line-height: 35px;
+                    font-size: 14px;
+                    color: #fff;
+                    border: 0;
                 }
             }
         }
